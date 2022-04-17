@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>java面向对象（初级）</title>
+      <link href="/2022/04/17/java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%EF%BC%88%E5%88%9D%E7%BA%A7%EF%BC%89/"/>
+      <url>/2022/04/17/java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%EF%BC%88%E5%88%9D%E7%BA%A7%EF%BC%89/</url>
+      
+        <content type="html"><![CDATA[<h1 id="面向对象与面向过程："><a href="#面向对象与面向过程：" class="headerlink" title="面向对象与面向过程："></a>面向对象与面向过程：</h1><p>举个栗子：把大象放进冰箱需要几步？</p><p>面向过程：首先需要打开冰箱门，拿到大象放入冰箱，关闭冰箱门。此时需要写出每一步的方法。</p><p>面向对象：只需创造大象创造冰箱，告诉大象进入冰箱，聪明的大象会自己走到冰箱中去。（顺手再把冰箱门带上）</p><p>两者都可以实现相同的目的，但是对于程序设计者而言，面向对象更加方便。</p><p>但是面对具体情况有具体方法，二者在不同的情况下有不同的运用，没有必要纠结于哪个更好。</p><h2 id="Java中的面向对象："><a href="#Java中的面向对象：" class="headerlink" title="Java中的面向对象："></a>Java中的面向对象：</h2><p><img src="https://s3.bmp.ovh/imgs/2022/04/17/f3f0a42df2ad2e51.png" class="lazyload placeholder" data-srcset="https://s3.bmp.ovh/imgs/2022/04/17/f3f0a42df2ad2e51.png" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="image-20220417163657862"></p><h2 id="类与对象："><a href="#类与对象：" class="headerlink" title="类与对象："></a>类与对象：</h2><h3 id="对象是类的实例，类是对象的模板。"><a href="#对象是类的实例，类是对象的模板。" class="headerlink" title="对象是类的实例，类是对象的模板。"></a>对象是类的实例，类是对象的模板。</h3><h4 id="再次举个栗子：我想造一法拉利（为什么是法拉利，不是兰博基尼？因为法拉利做梦更容易梦到）"><a href="#再次举个栗子：我想造一法拉利（为什么是法拉利，不是兰博基尼？因为法拉利做梦更容易梦到）" class="headerlink" title="再次举个栗子：我想造一法拉利（为什么是法拉利，不是兰博基尼？因为法拉利做梦更容易梦到）"></a>再次举个栗子：我想造一法拉利（为什么是法拉利，不是兰博基尼？因为法拉利做梦更容易梦到）</h4><p>首先，我们需要知道这辆车的属性。</p><p>​也就是说这辆车是什么颜色，能坐几个人，能跑多快？</p><p>​<img src="https://pic.dogimg.com/2022/04/17/625bee3dd069f.png" class="lazyload placeholder" data-srcset="https://pic.dogimg.com/2022/04/17/625bee3dd069f.png" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="image-20220417183730614">)</p><p>比如这里，我定义了车的颜色，速度，座位，但是没有给他们赋值。</p><p>这里定义一个方法，说明了车可以跑但是不能飞，在我们下一次使用的时候可以调用该方法。</p><p><img src="https://pic.dogimg.com/2022/04/17/625beed77524f.png" class="lazyload placeholder" data-srcset="https://pic.dogimg.com/2022/04/17/625beed77524f.png" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="image-20220417184046425"></p><p>之后我们创建出对象，再调用该方法：</p><p><img src="https://pic.dogimg.com/2022/04/17/625befde0a601.png" class="lazyload placeholder" data-srcset="https://pic.dogimg.com/2022/04/17/625befde0a601.png" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="image-20220417184503359"></p><p>此时这个车便有了一个属性：“可以跑，但是不能飞”</p><p>之后我们再给车的属性赋值。</p><p>例如：</p><p><img src="https://pic.dogimg.com/2022/04/17/625bf0d474760.png" class="lazyload placeholder" data-srcset="https://pic.dogimg.com/2022/04/17/625bf0d474760.png" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="image-20220417184923086"></p><p>如此一来：我们便实现了面向对象思想的一个简单运用。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>python爬虫开发</title>
+      <link href="/2022/04/14/python%E7%88%AC%E8%99%AB%E7%BC%96%E5%86%99/"/>
+      <url>/2022/04/14/python%E7%88%AC%E8%99%AB%E7%BC%96%E5%86%99/</url>
+      
+        <content type="html"><![CDATA[<h1 id="爬虫概念："><a href="#爬虫概念：" class="headerlink" title="爬虫概念："></a>爬虫概念：</h1><p>编写一段自动抓取互联网信息的程序，从互联网上抓取对于我们有价值的信息。</p><p>爬虫，无非就是模拟用户点击，编写爬虫可以更加方便的收集信息。</p><p>在做安全开发的时候，我们也可以编写特定的扫描工具进行网站的勘察，亦或者信息收集。</p><h2 id="新闻类爬虫的功能实现："><a href="#新闻类爬虫的功能实现：" class="headerlink" title="新闻类爬虫的功能实现："></a>新闻类爬虫的功能实现：</h2><h3 id="目标要求：爬取光明新闻网的链接、标题、时间。"><a href="#目标要求：爬取光明新闻网的链接、标题、时间。" class="headerlink" title="目标要求：爬取光明新闻网的链接、标题、时间。"></a>目标要求：爬取光明新闻网的链接、标题、时间。</h3><h3 id="核心内容方法："><a href="#核心内容方法：" class="headerlink" title="核心内容方法："></a>核心内容方法：</h3><h4 id="1、使用python中的request库，request-get-url-，获取网站中的内容。"><a href="#1、使用python中的request库，request-get-url-，获取网站中的内容。" class="headerlink" title="1、使用python中的request库，request.get(url)，获取网站中的内容。"></a>1、使用python中的request库，request.get(url)，获取网站中的内容。</h4><p>注：爬取到的中文网需使用“utf-8”转码，否则作为页面会出现乱码问题，初学者容易遇到的坑。</p><p><img src="https://s3.bmp.ovh/imgs/2022/04/17/eaf4dda3ab5e1db1.png" class="lazyload placeholder" data-srcset="https://s3.bmp.ovh/imgs/2022/04/17/eaf4dda3ab5e1db1.png" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="image-20220414160627954">)</p><h4 id="2、使用正则表达式进行页面内容匹配。"><a href="#2、使用正则表达式进行页面内容匹配。" class="headerlink" title="2、使用正则表达式进行页面内容匹配。"></a>2、使用正则表达式进行页面内容匹配。</h4><p>如：d &#x3D; r’href&#x3D;(.*?)target&#x3D;_blank’</p><p>​gcbt1 &#x3D; re.findall(m,gclj1)</p><p>此时则代表匹配href&#x3D; 与target&#x3D;_blank之间的内容</p><p>使用该语法及正则函数我们就可以逐步匹配到我们想要等等内容。</p><p>如图：</p><p><img src="https://s3.bmp.ovh/imgs/2022/04/17/78946de9d73d2303.png" class="lazyload placeholder" data-srcset="https://s3.bmp.ovh/imgs/2022/04/17/78946de9d73d2303.png" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="image-20220414161214403">)</p><h4 id="4、数据处理"><a href="#4、数据处理" class="headerlink" title="4、数据处理"></a>4、数据处理</h4><p>​爬取到数据之后我们要做到就是对数据进行处理然后输出。由于findall方法正则出来的内容一般都是储存在list里面。我们使用str()强制转换将list列表转化为str()字符串。注：此时如果将list字符串遍历输出到str中可能会更加合理。</p><p>由于使用了强制转换，输出的数据会存在不规范等问题。此处出现了将两个列表的元素融合，使用split分割符将元素分割开来。</p><p>如图：<img src="https://s3.bmp.ovh/imgs/2022/04/17/66e0c89dd54c1474.png" class="lazyload placeholder" data-srcset="https://s3.bmp.ovh/imgs/2022/04/17/66e0c89dd54c1474.png" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="image-20220414172301929">)</p><p>在使用时我们可以将爬取的数据储存到excel表里面。</p><p>此时使用“xlwt”库来写入excel文件。</p><p>注意：此次在用xlwt库大量写入excel表格时会出现内存占用的报错。这里我使用的方法是使用延时写入，避免报错。</p><p>最后保存excel表格，我们就完成了网页内容的爬取。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Socket编程学习笔记（python）</title>
+      <link href="/2022/04/12/socket%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+      <url>/2022/04/12/socket%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Socket？？？："><a href="#Socket？？？：" class="headerlink" title="Socket？？？："></a>Socket？？？：</h1><p>基于TCP的应用层与运输层之间的抽象层</p><p> <img src="https://s3.bmp.ovh/imgs/2022/04/17/5a7d6e9faca636c1.png" class="lazyload placeholder" data-srcset="https://s3.bmp.ovh/imgs/2022/04/17/5a7d6e9faca636c1.png" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="image-20220414110508971"></p><p>利用socket，我们可以发送文件，图片，消息。当然，你也可以利用socket协议发送一些不可名状的东西，socket木马编写（坏笑~~）</p><h2 id="话不多说，具体应用实现："><a href="#话不多说，具体应用实现：" class="headerlink" title="话不多说，具体应用实现："></a>话不多说，具体应用实现：</h2><p><img src="https://s3.bmp.ovh/imgs/2022/04/17/6e401f27e2bd1a23.png" class="lazyload placeholder" data-srcset="https://s3.bmp.ovh/imgs/2022/04/17/6e401f27e2bd1a23.png" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="image-20220414111450791"></p><p><img src="https://s3.bmp.ovh/imgs/2022/04/17/8acb7e2abddd1144.png" class="lazyload placeholder" data-srcset="https://s3.bmp.ovh/imgs/2022/04/17/8acb7e2abddd1144.png" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="image-20220414111523224"></p><p>可以看到，socket需要客户端和服务端两个程序，此时我们使用python调用socke库，使用TCP协议，然后再进行绑定端口设置监听操作。为方便程序交互我们设置了一些提示，并且将数据进行编码发送。</p><p>补充在python中socket的一些函数方法：</p><h2 id="socket函数"><a href="#socket函数" class="headerlink" title="socket函数"></a>socket函数</h2><h3 id="服务端socket函数"><a href="#服务端socket函数" class="headerlink" title="服务端socket函数"></a>服务端socket函数</h3><p>　　　　s.bind(address)：将套接字绑定到地址，在AF_INET下，以tuple(host,prot)的方式传入，如s.bind((host,port))。</p><p>　　　　s.listen(backlog)：开始监听TCP传入连接。backlog指定在拒绝连接之前，操作系统可以挂起的最大连接数量。该值最少为1。</p><p>　　　　s.accept()：接受TCP连接并返回(conn,address)，其中conn是新的套接字对象，可以用来接收和发送数据，address是连接客户端的地址。(sock,addr &#x3D; s.accept)。</p><h3 id="客户端socket函数"><a href="#客户端socket函数" class="headerlink" title="客户端socket函数"></a>客户端socket函数</h3><p>　　　　s.connect(address)：链接到address处的套接字，一般address的格式为tuple(host,port),如果链接出错，则返回socket.error错误。</p><p>　　　　s.connect_ex(address)：功能与s.connect(address)相同，但成功返回0，失败返回errno的值。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
